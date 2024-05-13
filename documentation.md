@@ -6,7 +6,7 @@ local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/vFish
 local lib = Library:CreateWindow({Title = "SN Lib"})
 ```
 
-## Creating a tab
+## Creating a Tab
 ```lua
 local t1 = lib:NewTab({Name = "Catching"})
 ```
@@ -15,7 +15,7 @@ local t1 = lib:NewTab({Name = "Catching"})
 local s1 = t1:NewSection({Name = "Section"})
 ```
 
-## Adding a toggle
+## Adding a Toggle
 ```lua
 s1:NewToggle({
 	Name = "Magnets",
@@ -26,7 +26,7 @@ s1:NewToggle({
 })
 ```
 
-## Adding a slider
+## Adding a Slider
 ```lua
 t1:NewSlider({
 	Name = "Magnets Range",
@@ -39,7 +39,7 @@ t1:NewSlider({
 })
 ```
 
-## Adding a button
+## Adding a Button
 ```lua
 t1:NewButton({
 	Name = "Button Yay",
@@ -49,7 +49,7 @@ t1:NewButton({
 })
 ```
 
-## Adding a dropdown
+## Adding a Dropdown
 ```lua
 s1:NewDropdown({
 	Name = "Dropdown lol",
