@@ -89,7 +89,7 @@ function Library:CreateWindow(options)
 		CurrentTab = nil
 	}
 	
-	local ScreenGui = Instance.new('ScreenGui', game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"))
+	local ScreenGui = Instance.new('ScreenGui', gethui())
 	local Main = Instance.new('Frame', ScreenGui)
 	local TabBar = Instance.new('Frame', Main)
 	local TabBarCorner = Instance.new('UICorner', TabBar)
