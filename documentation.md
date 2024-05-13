@@ -1,6 +1,6 @@
 # Documenation
 
-## Creating a window
+## Creating a Window
 ```lua
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/vFishyTurtle/SN-Lib/main/src'))()
 local lib = Library:CreateWindow({Title = "SN Lib"})
