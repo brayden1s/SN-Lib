@@ -318,7 +318,7 @@ function Library:CreateWindow(options)
 		end)
 
 		if gui.CurrentTab == nil then
-			tab.Activate()	
+			tab:Activate()	
 		end
 
 		function tab:NewToggle(options)
