@@ -467,7 +467,7 @@ function Library:CreateWindow(options)
 			SliderTitle.BackgroundTransparency = 1
 			SliderTitle.BorderSizePixel = 0
 			SliderTitle.BorderColor3 = Color3.new(0,0,0)
-			SliderTitle.Text = "Slider"
+			SliderTitle.Text = options.Name
 			SliderTitle.TextColor3 = Color3.new(0.5765,0.5765,0.5765)
 			SliderTitle.Font = Enum.Font.Gotham
 			SliderTitle.TextSize = 14
