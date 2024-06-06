@@ -13,7 +13,7 @@ local Library = {}
 local components = {}
 local componentIntegrity = {}
 local canDrag = true
-local mainKeybind = "LeftCtrl"
+local mainKeybind = "LeftControl"
 
 local function CreateDrag(gui)
 	local dragging
